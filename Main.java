@@ -1,6 +1,6 @@
 package net.perlasjp.juego;
 
+public class Main {
 
-Class Historia  {
-    
+ 
 }
