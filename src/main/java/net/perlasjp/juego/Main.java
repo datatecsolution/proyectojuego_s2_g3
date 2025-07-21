@@ -1,6 +1,7 @@
-package net.perlasjp.juego;
+packagen net.perlasjp.juego;
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("¡Hola desde Gradle!");
-    }
+
+public static void main (string[] args) {
+    System.out.printl("¡Hola desde Gradle!");
+}
 }
