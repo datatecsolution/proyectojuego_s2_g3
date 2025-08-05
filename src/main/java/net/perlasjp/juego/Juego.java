@@ -2,9 +2,9 @@ package net.perlasjp.juego;
 
 public class Juego {
 
-    private String Jugador;
-    private String Enemigo;
-    private String Combate;
+    private Jugador jugador;
+    private Enemigo enemigo;
+    private Combate combate;
 
     public void iniciar() {
 
