@@ -23,8 +23,8 @@ public class Jugador {
     }
 
    public Jugador (String n, int s) {
-        n = nombre;
-        s = salud;
+        nombre=n;
+        salud=s;
         fuerza=10;
 
    }
