@@ -8,19 +8,41 @@ public class Jugador {
    
    private int fuerza;
  
-    public int atacar() {
+    public void recibirDanios(int cantidad) {
+        salud = salud - cantidad;
+        if (salud < 0) 
+            salud = 0; 
+    }
+
+        public int atacar() {
         return fuerza;
     }
 
-    public void recibirDanios(int danio) {
-        
-    }
-
      public boolean estaVivo() {
-        return false;
+        return salud > 0;
     }
 
+   public Jugador (String n, int s) {
+        nombre=n;
+        salud=s;
+        fuerza=10;
+
+   }
     
+    public String getNombre (){
+        return nombre;
+
+    }
+    
+    public int getSalud (){
+        return salud;
+    }
+
+    public void mostrarEstado (){
+        System.out.println("Jugador:" + nombre);
+        System.out.println("Jugador:" + salud);
+        System.out.println("Jugador:" + fuerza);
+    }
 }
 
     
