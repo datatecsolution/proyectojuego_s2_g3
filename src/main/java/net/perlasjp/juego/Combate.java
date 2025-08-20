@@ -9,11 +9,11 @@ public class Combate {
 
     public void iniciar (Jugador jugador, Enemigo enemigo) {
            Scanner scanner = new Scanner (System.in);
-           //System.out.println("\niUn " + enemigo.getNombre() + "ha aparecido !" );
+           System.out.println("\niUn " + enemigo.getNombre() + " ha aparecido !" );
 
 
        while (jugador.estaVivo() && enemigo.estarVivo()) {
-        //System.out.println("\nTu salud:" + jugador.getsalud() + " | salud del enemigo" + enemigo.getsalud());
+                    System.out.println("\nTu salud:" + jugador.getSalud() + " | salud del enemigo: " + enemigo.getSalud());
                     System.out.print("¿Atacar (a) o Huir (h)?");
                     String opcion = scanner.nextLine();
 
@@ -23,7 +23,7 @@ public class Combate {
                         if (enemigo.estarVivo()) {
                             jugador.recibirDanios(enemigo.atacar());
                         } else {
-                          //  System.out.println("¡Derrotaste al " + enemigo.getNombre() + "!");
+                            System.out.println("¡Derrotaste al " + enemigo.getNombre() + "!");
                         }
         
                         }else if (opcion.equalsIgnoreCase("h")) {

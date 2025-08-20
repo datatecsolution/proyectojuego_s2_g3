@@ -22,9 +22,9 @@ public class Jugador {
         return salud > 0;
     }
 
-   public Jugador (String n, int s) {
+   public Jugador (String n) {
         nombre=n;
-        salud=s;
+        salud=100;
         fuerza=10;
 
    }
@@ -40,8 +40,8 @@ public class Jugador {
 
     public void mostrarEstado (){
         System.out.println("Jugador:" + nombre);
-        System.out.println("Jugador:" + salud);
-        System.out.println("Jugador:" + fuerza);
+        System.out.println("Salud:" + salud);
+        System.out.println("Fuerza:" + fuerza);
     }
 }
 
