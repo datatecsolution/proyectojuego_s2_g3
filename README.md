@@ -127,6 +127,7 @@ Este proyecto fue creado por un equipo de alumnos con fines educativos para apre
 - **Clic en clear.**
 - **Clic en build.**
 - **Una vez que termine copie este comando de la siguiente linea en la terminal.**
-```java -jar build\libs\Juego-Perla-12-S2-G1-1.0.jar
+```
+java -jar build\libs\Juego-Perla-12-S2-G1-1.0.jar
 java -jar build/libs/Juego-Perla-12-S2-G1-1.0.jar 
 ```
